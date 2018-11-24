@@ -1,10 +1,11 @@
 import React, { Component } from 'react';
-import styled, { css } from 'styled-components';
+import styled from 'styled-components';
 import arrow from './images/Arrow.svg';
 import Taj from './images/Taj.png';
 import NY from './images/NY.jpg';
 import Macchu from './images/MachuPicchu.jpg';
 import StyledCard from './styles/StyledCard';
+import FlipButton from './styles/FlipButton';
 
 const PlacePic = styled.img`
   height: 50%;
@@ -42,17 +43,6 @@ const SectionDescription = styled.span`
   margin-left: 15px;
   font-weight: 300;
   font-size: 0.8rem;
-`;
-
-const FlipButton = styled.img`
-cursor: pointer;
-color: red;
-position: absolute;
-bottom: 8%
-right: 10%;
-  &:active {
-    transform: translateY(-1px);
-  }
 `;
 
 class CardBack extends Component {
@@ -125,16 +115,16 @@ class CardBack extends Component {
           <SectionDescription>Places she visited</SectionDescription>
         </Section>
         <Section
-          onClick={this.activeMusicHandler}
           active={this.state.musicActive}
+          onClick={this.activeMusicHandler}
         >
           <SectionTitle>Shape of you</SectionTitle>
           <br />
           <SectionDescription>Music she listens</SectionDescription>
         </Section>
         <Section
-          onClick={this.activeFoodHandler}
           active={this.state.foodActive}
+          onClick={this.activeFoodHandler}
         >
           <SectionTitle>Nachos with cheese</SectionTitle>
           <br />

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import profilePic from './images/Bitmap.png';
 import arrow from './images/Arrow.svg';
 import StyledCard from './styles/StyledCard';
+import FlipButton from './styles/FlipButton';
 
 const Age = styled.div`
   height: 50px;
@@ -55,15 +56,6 @@ const Info = styled.p`
   color: grey;
   width: 60%;
   margin-top: 20px;
-`;
-
-const FlipButton = styled.img`
-  position: relative;
-  top: 80%;
-  left: 80%;
-  &:active {
-    transform: translateY(-1px);
-  }
 `;
 
 const CardFront = props => {
