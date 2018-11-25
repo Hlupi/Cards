@@ -20,13 +20,13 @@ position: relative;
   width: 10px;
   height: 10px;
   border-radius: 50%;
-  background: ${props => (props.active ? 'white' : 'grey')}
+  background: ${props => (props.active ? '#eaeaea' : '#443d3a')}
   display: inline-block;
   margin: 0 6px;
 `;
 
 const Section = styled.div`
-  color: ${props => (props.active ? 'white' : 'grey')};
+  color: ${props => (props.active ? '#eaeaea' : '#443d3a')};
   &:not(last) {
     margin-bottom: 20px;
   }
@@ -35,7 +35,7 @@ const Section = styled.div`
 const SectionTitle = styled.span`
   margin-left: 15px;
   display: inline-block;
-  font-weight: 400;
+  font-weight: 600;
   font-size: 1.2rem;
 `;
 
