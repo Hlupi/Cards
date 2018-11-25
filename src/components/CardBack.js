@@ -8,8 +8,8 @@ import StyledCard from './styles/StyledCard';
 import FlipButton from './styles/FlipButton';
 
 const PlacePic = styled.img`
-  height: 50%;
   width: 100%;
+  height: 50%;
   background-blend-mode: screen;
 `;
 
@@ -22,7 +22,7 @@ position: relative;
   border-radius: 50%;
   background: ${props => (props.active ? 'white' : 'grey')}
   display: inline-block;
-  margin: 0 3px;
+  margin: 0 6px;
 `;
 
 const Section = styled.div`

@@ -26,15 +26,11 @@ const Age = styled.div`
 `;
 
 const ProfilePic = styled.img`
-  background-size: cover;
-  height: 60%;
   width: 100%;
-  background-blend-mode: screen;
   border-radius: 0 0 0% 65%;
   z-index: 1;
 `;
 
-// font-size: 22px;
 const Name = styled.span`
   margin-left: 15px;
   font-weight: 700;
@@ -55,7 +51,7 @@ const Info = styled.p`
   font-size: 0.8rem;
   color: grey;
   width: 60%;
-  margin-top: 20px;
+  margin-top: 25px;
 `;
 
 const CardFront = props => {
