@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import profilePic from '../images/Bitmap.png';
+import profilePic from '../../assets/images/PropilePic.png';
 
 const Background = styled.div`
   position: absolute;

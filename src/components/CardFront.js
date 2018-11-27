@@ -1,7 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import profilePic from '../assets/images/PropilePic.png';
-import arrow from './images/Arrow.svg';
+import arrow from '../assets/images/Arrow.svg';
 import StyledCard from './styles/StyledCard';
 import FlipButton from './styles/FlipButton';
 

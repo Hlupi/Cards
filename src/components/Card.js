@@ -4,8 +4,8 @@ import CardBack from './CardBack';
 
 class Card extends Component {
   state = {
-    showFront: false,
-    showBack: true
+    showFront: true,
+    showBack: false
   };
 
   flipSideHandler = () => {

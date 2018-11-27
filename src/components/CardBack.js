@@ -82,6 +82,12 @@ class CardBack extends Component {
     });
   };
 
+  sectionSelectHandler = section => {
+    this.setState({
+      section
+    });
+  };
+
   selectPlaceHandler = placeId => {
     const chosenPlace = this.state.places.filter(
       place => place.id === placeId
