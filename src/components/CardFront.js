@@ -1,6 +1,6 @@
 import React from 'react';
 import styled from 'styled-components';
-import profilePic from './images/Bitmap.png';
+import profilePic from '../assets/images/PropilePic.png';
 import arrow from './images/Arrow.svg';
 import StyledCard from './styles/StyledCard';
 import FlipButton from './styles/FlipButton';
@@ -16,38 +16,36 @@ const Age = styled.div`
   );
   border: 5px solid white;
   box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
-  font-weight: bold;
   text-align: center;
   color: white;
   margin-top: -90px;
   margin-left: 10px;
   position: relative;
-  z-index: 6;
+  font-family: 'Open Sans Bold';
 `;
 
 const ProfilePic = styled.img`
   width: 100%;
   border-radius: 0 0 0% 65%;
-  z-index: 1;
 `;
 
 const Name = styled.span`
+  font-family: 'Open Sans Bold';
   margin-left: 15px;
-  font-weight: 700;
   font-size: 1.3rem;
   display: block;
   margin-top: 30px;
 `;
 
 const Lastname = styled.span`
+  font-family: 'Open Sans Light';
   margin-left: 15px;
-  font-weight: 300;
   display: block;
 `;
 
 const Info = styled.p`
+  font-family: 'Open Sans Light';
   margin-left: 17px;
-  font-weight: 300;
   font-size: 0.8rem;
   color: grey;
   width: 60%;

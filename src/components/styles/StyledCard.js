@@ -5,11 +5,9 @@ const StyledCard = styled.div`
   box-sizing: border-box;
   width: 300px;
   height: 450px;
-  text-align: left;
   box-shadow: 3px 5px 5px #161615;
   border: 1px solid #161615;
-  box-sizing: border-box;
-  background: ${props => (props.back ? 'transparent' : 'white')};
+  background: ${props => (props.back ? null : 'white')};
   position: relative;
   z-index: 1000;
 `;

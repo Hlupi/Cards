@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import arrow from './images/Arrow.svg';
-import Taj from './images/Taj.png';
-import NY from './images/NY.jpg';
-import Macchu from './images/MachuPicchu.jpg';
+import arrow from '../assets/images/Arrow.svg';
+import Taj from '../assets/images/Taj.png';
+import NY from '../assets/images/NY.jpg';
+import Macchu from '../assets/images/MachuPicchu.jpg';
 import StyledCard from './styles/StyledCard';
 import FlipButton from './styles/FlipButton';
 
@@ -33,15 +33,15 @@ const Section = styled.div`
 `;
 
 const SectionTitle = styled.span`
+  font-family: 'Open Sans Bold';
   margin-left: 15px;
   display: inline-block;
-  font-weight: 600;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
 `;
 
 const SectionDescription = styled.span`
+  font-family: 'Open Sans Light';
   margin-left: 15px;
-  font-weight: 300;
   font-size: 0.8rem;
 `;
 

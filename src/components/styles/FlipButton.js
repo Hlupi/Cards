@@ -5,7 +5,7 @@ const FlipButton = styled.img`
   bottom: 10%;
   right: 10%;
   &:active {
-    transform: translateY(-1px);
+    transform: translateY(1px);
   }
 `;
 
